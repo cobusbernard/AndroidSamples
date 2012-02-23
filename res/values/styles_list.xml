@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ListItemTextRow" parent="@android:style/TextAppearance.Medium">
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="ListItemCheckboxRow" parent="@android:style/TextAppearance.Medium">
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_weight">0</item>
+    </style>    
+    
+	<style name="ListItemRightPadRow" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_weight">0</item>
+    </style>       
+</resources>

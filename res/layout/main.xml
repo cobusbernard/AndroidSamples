@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+		style="@style/MainViewButton"
+        android:id="@+id/listButton"
+        android:text="@string/list_button"/>
+
+    <Button
+		style="@style/MainViewButton"
+        android:id="@+id/tabButton"
+        android:text="@string/tab_button"/>
+
+    <Button
+		style="@style/MainViewButton"
+        android:id="@+id/vennButton"
+        android:text="@string/venn_button"/>
+
+</LinearLayout>

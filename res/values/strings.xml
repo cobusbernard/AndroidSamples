@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidSamples</string>
+    <string name="list_button">List</string>
+    <string name="tab_button">Tab</string>
+    <string name="venn_button">Venn</string>
+
+</resources>
