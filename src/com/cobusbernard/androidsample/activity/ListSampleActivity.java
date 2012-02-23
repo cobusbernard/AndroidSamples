@@ -6,16 +6,15 @@ import android.os.Bundle;
 import com.cobusbernard.androidsample.R;
 
 /**
- * This activity will demonstrate drawing circles for a Venn diagram. Will make use of alpha-channel to 
- * show overlap.
+ * This activity will demonstrate a List using an adapter.
  * 
  * @author Cobus Bernard
  */
-public class VennActivity extends Activity {
+public class ListSampleActivity extends Activity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.venn_activity);
+        setContentView(R.layout.activity_list);
     }
 }

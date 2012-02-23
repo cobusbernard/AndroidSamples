@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    style="@style/TabHost">
+
+	<TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <!--  Tab 1 -->
+        <TextView
+            style="@style/TabText"
+            android:id="@+id/tab1Text"
+            android:text="@string/tab1_heading"/>
+
+        <!--  Tab 2 -->
+        <TextView
+            style="@style/TabText"
+            android:id="@+id/tab2Text"
+            android:text="@string/tab2_heading"/>
+
+        <!--  Tab 3 -->
+        <TextView
+            style="@style/TabText"
+            android:id="@+id/tab3Text"
+            android:text="@string/tab3_heading"/>
+    </FrameLayout>
+</TabHost>

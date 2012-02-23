@@ -22,7 +22,7 @@ public class StartingActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_start);
         init();
         addListeners();
     }
@@ -58,9 +58,9 @@ public class StartingActivity extends Activity {
     	Class classToLaunch = null;
     	
     	switch(v.getId()) {
-	    	case R.id.listButton : classToLaunch = ListActivity.class; break;
-	    	case R.id.tabButton : classToLaunch = TabActivity.class; break;
-	    	case R.id.vennButton : classToLaunch = VennActivity.class; break;
+	    	case R.id.listButton : classToLaunch = ListSampleActivity.class; break;
+	    	case R.id.tabButton : classToLaunch = TabSampleActivity.class; break;
+	    	case R.id.vennButton : classToLaunch = VennSampleActivity.class; break;
     	}
     	
     	StartingActivity.this.startActivity(new Intent(StartingActivity.this, classToLaunch));

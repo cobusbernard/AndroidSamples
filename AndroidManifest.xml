@@ -20,15 +20,15 @@
             </intent-filter>
         </activity>
         <activity 
-            android:name=".activity.ListActivity"
+            android:name=".activity.ListSampleActivity"
             android:label="@string/app_name">
         </activity>           
         <activity 
-            android:name=".activity.TabActivity"
+            android:name=".activity.TabSampleActivity"
             android:label="@string/app_name">
         </activity>           
         <activity 
-            android:name=".activity.VennActivity"
+            android:name=".activity.VennSampleActivity"
             android:label="@string/app_name">
         </activity>           
     </application>
